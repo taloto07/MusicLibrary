@@ -42,7 +42,7 @@
                   },
                   
                   swfPath: "js",
-                  supplied: "mp3",
+                  supplied: "mp3"
                   
                 });
                 
