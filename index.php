@@ -56,7 +56,7 @@
                 });
             });
         </script>
-        <title>MusicLibrary/Index</title>
+        <title>Huy Index</title>
     </head>
     <body>
         <?php
