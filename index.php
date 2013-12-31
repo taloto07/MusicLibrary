@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 
 <?php
-    $db_hostname = 'localhost';
-    $db_database = 'music_lib';
-    $db_username = 'root';
-    $db_password = 'root';  
+    $db_hostname = 'just56.justhost.com';
+    $db_database = 'koolninc_music';
+    $db_username = 'koolninc_H';
+    $db_password = 'Abc123456';  
 ?>            
 <html>
     <head>
