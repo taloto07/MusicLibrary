@@ -100,6 +100,9 @@
                 }else{
                     echo "No result.";
                 }
+                
+                // Close connection
+                $conn = null;
             }catch(PDOException $e){
                 echo "ERROR: ". $e->getMessage();
             }
