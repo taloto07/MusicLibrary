@@ -40,7 +40,7 @@
                         current = current.next();
                     }
                   },
-                  
+                  smoothPlayBar: "true",
                   swfPath: "js",
                   supplied: "mp3"
                   
@@ -49,9 +49,11 @@
                 $("div#playMusic").click(function(){
                     var path = $(this).attr("value");
                     current = $(this).next();
+                    
                     $("#jquery_jplayer_1").jPlayer("setMedia", {
                         mp3: path
                     }).jPlayer("play");
+                    
                     $("div.jp-title ul li").html($(this).html());
                 });
             });
