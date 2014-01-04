@@ -1,11 +1,8 @@
 <!DOCTYPE html>
-
 <?php
-    $db_hostname = 'localhost';
-    $db_database = 'music_lib';
-    $db_username = 'root';
-    $db_password = 'root';  
-?>            
+    include 'includes/header.php'
+?>
+        
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -58,7 +55,7 @@
                 });
             });
         </script>
-        <title>Huy Index</title>
+       
     </head>
     <body>
         <?php
@@ -153,3 +150,7 @@
         
     </body>
 </html>
+
+<?php 
+    include 'includes/footer.php';
+?>
