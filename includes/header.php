@@ -13,6 +13,12 @@
 
     </head>
     <body>
-        <div class="top-wrap">
+        <div class='top-wrap'> 
+            <h2 class='logo'>
+                <a href='/musiclibrary/home.php'>
+                    <img width="60" height="35" src="images/logo.jpg">
+                </a>
+            </h2>
+        </div>
     </body>
 </html>
